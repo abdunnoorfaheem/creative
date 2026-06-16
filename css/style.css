@@ -3,6 +3,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
-
+ul ,ol{
+   list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
 /* all common css style end */
+/* header part style start */
+#headerPart{
+     margin: 34px 0;
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+}
+.menu ul li{
+    color: #181818;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .5s;
+    
+}
+.menu ul li:hover{
+    
+    color: #5956E8;
+    
+}
+.headerButton button{
+    padding: 13px 24px;
+    background: #5956E8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* header part style end */
+/* banner part style start */
+#bannerPart{
+    background: #5956E8;
+    padding: 183px 0;
+}
+.bannerPartFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.bannerPartLeft h1{
+    width: 501px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+}
+.bannerPartLeft p{
+    line-height: 27px;
+    color: white;
+    width: 542px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.bannerButton button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 22px;
+    background: white;
+    color: #5956E8;
+    border: none;
+    border-radius: 10px;
+}
+/* banner part style end */
